@@ -20,7 +20,7 @@ class TestAveragePostsPerMonthPerUserTest extends TestCase
     /**
      * @test
      */
-    public function testNothing(): void
+    public function testAverage(): void
     {
         // Load the json data.
         $this->assertFileExists(__DIR__ . '/../data/social-posts-response.json');
